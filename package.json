@@ -1,0 +1,26 @@
+{
+  "name": "coderhouse1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+
+    "build-css": "sass sass/origen.scss css/destino.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+
+
+
+  
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elrikikiki/notebook1/issues"
+  },
+  "homepage": "https://github.com/elrikikiki/notebook1#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "sass": "^1.49.7"
+  }
+}

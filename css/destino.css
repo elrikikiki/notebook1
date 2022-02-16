@@ -1,0 +1,101 @@
+@keyframes titulo {
+  from {
+    transform: translate(-200px);
+    opacity: 0;
+  }
+  to {
+    transform: translate(0);
+    opacity: 1;
+  }
+}
+.titulo {
+  animation-name: titulo;
+  animation-iteration-count: 1;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+}
+
+@keyframes logo {
+  from {
+    transform: translate(-200px);
+    opacity: 0;
+  }
+  to {
+    transform: translate(0);
+    opacity: 1;
+  }
+}
+.logo {
+  animation-name: logo;
+  animation-iteration-count: 1;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+}
+
+@keyframes consulta {
+  from {
+    transform: translate(-400px);
+    opacity: 0;
+  }
+  to {
+    transform: translate(0);
+    opacity: 1;
+  }
+}
+.consulta {
+  animation-name: consulta;
+  animation-iteration-count: 1;
+  animation-duration: 1.5s;
+  animation-timing-function: linear;
+}
+
+.mouseHeader {
+  transition: all infinite;
+}
+
+.mouseHeader:hover {
+  background-color: #7f9494;
+}
+
+.mouseFooter {
+  transition: all infinite;
+}
+
+.mouseFooter:hover {
+  background-color: #6b6363;
+}
+
+.mouseInicio {
+  transition: all infinite;
+}
+
+.mouseInicio:hover {
+  background-color: #e1e4e4;
+}
+
+.mouseEdificio {
+  transition: all infinite;
+}
+
+.mouseEdificio:hover {
+  background-color: #6b6363;
+  color: white;
+}
+
+.edificiosImagen {
+  transition: all infinite;
+}
+
+.edificiosImagen:hover {
+  translate: 4 -20;
+}
+
+.cursiva {
+  font-style: italic;
+}
+
+.marginLogo {
+  margin-bottom: 3%;
+}
+
+/*# sourceMappingURL=destino.css.map */
